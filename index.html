@@ -13,28 +13,47 @@
             text-align: center;
             
         }
-        .container{ border: 5px solid rgb(199, 220, 11); box-shadow: 0px 5px 5px rgb(200, 200, 200); min-height: 500px; border-radius: 10px; font-size: 20px; padding: 20px; display: flex; justify-content: center;  }
+        .container{ 
+            border: 5px solid rgb(199, 220, 11);
+            box-shadow: 0px 5px 5px rgb(200, 200, 200);
+            min-height: 500px; border-radius: 10px;
+            font-size: 20px;
+            padding: 20px; 
+            display: flex; 
+            justify-content: center;  
+            background-color: rgba(255, 207, 134, 0.8);
+        }
+        body{
+            background-image: url("https://media.istockphoto.com/id/1318724719/photo/dramatic-sunrise-over-the-agricultural-land.jpg?s=612x612&w=0&k=20&c=QA5mXs3k-Kg0ZykjiNWZ7AIUf0u2WTGnxCH1hrgDenE=");
+            background-size: cover;
+        }
     </style>
     
 
    
 </head>
 <body>
+    <br><br>
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 ">
-                <h1 style="text-align: center;"> Add new Kalimbayan member</h1>
+            <div class="col-lg-8 form-group">
+                <h1 style="text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"> Add a new Kalimbayan member</h1>
+                <img src="https://media1.tenor.com/m/KoY_nSwZIEAAAAAd/super-idol-super-idol-meme.gif" alt="Tuple Idol" style="display: block; margin: 0 auto; width: 50px; height: auto;">
+                <audio style="display: block; margin: 0 auto;" controls>
+                <source src="Super.mp3" type="audio/mpeg">
+                </audio>
                 <form>
                     <br>
-                    <input type="text" id="input1" placeholder="Enter First Name Here">
-                    <input type="text" id="input2" placeholder="Enter Last Name Here">
+                    <input type="text" id="input1" placeholder="Enter First Name Here" class="form-control">
+                    <input type="text" id="input2" placeholder="Enter Last Name Here" class="form-control">
                     <br>
-                    <button type="button" id="btn" class="btn btn-info" py-click="add_brand" >Add Member</button>
+                    <button type="button" id="btn" class="btn btn-success form-control" py-click="add_brand" >Add Member</button>
                 </form>
         </div>
         <div class="row">
-            <div class="col-lg-7" id="output1"> 
+            <div class="col-lg-7 form-control" id="output1" style="background-color: rgba(188, 165, 127, 0.8); border-radius: 10px; margin-top: 20px; min-height: 200px; text-align: center; font-family:monospace">
+                <h3 style="text-align: center; font-family:monospace">List of Members</h3>
 
             </div>
         </div>

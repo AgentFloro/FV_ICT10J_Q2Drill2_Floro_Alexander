@@ -8,9 +8,9 @@ def add_brand(e):
     Grade9 = {"Jimmy Saludes", "Ai Ai",  "John Chessmaster123"}
     Grade10 = {"Alexander Floro", "Kurt Abellar", "Jeremiah Velasco"}
 
-    input_brand = document.getElementById('input1').value
-    input_brand2 = document.getElementById('input2').value
-    Full = (f'{input_brand} {input_brand2}')
+    input_name = document.getElementById('input1').value
+    input_name2 = document.getElementById('input2').value
+    Full = (f'{input_name} {input_name2}')
 
     new_brand_set = {Full}
 
@@ -25,6 +25,10 @@ def add_brand(e):
 
 
 '''References
-https://www.w3schools.com/css/css_align.asp -- fo aligning the buttons and inputs
+https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_form_horizontal&stacked=h -- this is for aligning the buttons and inputs
+https://www.w3schools.com/html/html5_audio.asp -- audio
+And ma'am Evangalista's html Template :3
+Tian Yiming - Super Idol 的笑容/热爱105°C的你 
 
 '''
